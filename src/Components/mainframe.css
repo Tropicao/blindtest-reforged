@@ -10,12 +10,14 @@
 #buzzer-container {
   position: absolute;
   bottom: 0;
-  left: 10%;
-  width: 80%;
+  left: 0%;
+  width: 100%;
   height: 20%;
   max-height: 8em;
   padding-bottom: 1em;
   display: flex;
-  gap: 5%;
+  flex-wrap: wrap;
+  gap: 1%;
   justify-content: center;
+  top: 80%;
 }

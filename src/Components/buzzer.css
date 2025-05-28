@@ -1,6 +1,6 @@
 .buzzer {
-  width: 20%;
-  max-width: 12em;
+  width: 18%;
+  max-width: 18%;
   height: 100%;
   border-radius: 1em;
   border: 1px solid black;
@@ -13,7 +13,7 @@
 
 .buzzer > p {
   font-weight: bold;
-  font-size: x-large;
+  font-size: large;
   margin: 0;
 }
 
@@ -43,6 +43,8 @@
   justify-content: space-between;
   width: 60%;
   margin: auto;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 .buzzer > .score-btns > .button {
