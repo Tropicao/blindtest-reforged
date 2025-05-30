@@ -1,0 +1,15 @@
+# Playlist generator
+
+You can use this script to generate the playlist file used by the
+blindtest. It consumes a `songs.txt` describing title and author, and
+outputs the corresponding `results.json`. The script acts as a best-effort
+youtube search engine, returning the video ID for the first video found
+matching the provided song data.
+
+## Usage
+
+- create a `songs.txt` file. Each line must have the following format:
+  `<title> - <author(s)>`. You can use the `samples.txt.template` as a base
+- run the script. Make sure to have the yt_dlp python module installed
+- once the `results.json` file is generated, deploy it in the directory
+  exposing the blindtest frontend (eg: the build directory)
